@@ -8,8 +8,8 @@ You can try the app here : https://antoinebrias-ocean-detection-streamlit-main-u
 
 ## Features
 
-- **Simulated Cetacean Movement**: A dynamic model for simulating cetacean behavior in a given habitat, taking into account various parameters like movement correlation strength, population size, and environmental constraints.
-- **Hydrophone Detection**: The simulation includes hydrophones placed at strategic locations, detecting cetacean positions based on a set of predefined rules.
+- **Simulated Cetacean Movement**: A dynamic model for simulating cetacean behavior taking into account movement correlation strength.
+- **Hydrophone Detection**: The simulation includes hydrophones placed at random locations, detecting cetacean positions based on a set of predefined rules.
 - **Real-Time Visualization**: Utilizes `Plotly` and `Streamlit` to create interactive visualizations, including heatmaps and trajectory plots, to represent cetacean density and movement patterns.
 - **Error Metrics**: Implements Mean Squared Error (MSE) calculations to assess the accuracy of the detection process, comparing the simulated detection data to the actual positions.
 - **Interactive Interface**: Streamlit is used for creating an interactive dashboard, where users can adjust parameters and see the results in real-time.
