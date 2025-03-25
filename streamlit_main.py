@@ -15,7 +15,7 @@ def main():
         correlation_strength = st.number_input("Correlation Strength", value=0.4, step=0.1)
         xlim = st.number_input("X Limit", value=400, step=10)
         ylim = st.number_input("Y Limit", value=400, step=10)
-        steps = st.number_input("Steps", value=100, step=1)
+        steps = st.number_input("Steps", value=10, step=1)
         num_hydrophones = st.number_input("Number of Hydrophones", value=5, step=1)
         detection_range = st.number_input("Detection range", value=50, step=10)
         run_button = st.button("Run Simulation")
