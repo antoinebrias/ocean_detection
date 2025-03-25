@@ -1,0 +1,8 @@
+numpy
+matplotlib
+scipy
+ipywidgets
+IPython
+plotly
+streamlit
+requests
