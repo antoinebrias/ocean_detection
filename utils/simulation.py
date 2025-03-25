@@ -83,7 +83,7 @@ density_over_time = []
 errors_over_time = []
 
 # Run simulation
-def run_simulation(N=50, M=5, correlation_strength=0.4, xlim=400, ylim=400, steps=100, num_hydrophones=5, detection_range = 50):
+def run_simulation(N=50, M=5, correlation_strength=0.4, xlim=400, ylim=400, steps=10, num_hydrophones=5, detection_range = 50):
     # Initialize cetaceans with marked ones being red and unmarked grey
     cetaceans = [Cetacean(xlim, ylim, marked=(i < M)) for i in range(N)]
 
